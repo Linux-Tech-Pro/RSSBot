@@ -1,5 +1,8 @@
 import { IJollyConfig } from "../src/interfaces/config.ts";
-import { custom } from "../custom/reactionrole.temp.ts";         // duplicate this line as needed, rename reactionrole.temp.ts to reactionrole.ts
+import { custom } from "../custom/reactionrole.temp.ts";         // duplicate this line as needed
+                                                                 // Rename reactionrole.temp.ts to reactionrole.ts
+                                                                 // On both this Line 2, as well as the file in the
+                                                                 // custom folder
 
 /*
     TypeScript-based Configuration:
@@ -154,7 +157,7 @@ const plugins = {
     },
     funfact: {
         enable: false,
-        // documentation: https://github.com/MacTechStudios/LevelingBot/wiki/Source-for-Fun-fact
+        // documentation: https://github.com/MacTechStudios/LevelingBot/wiki/Source-for-the-Fun-Fact
         source: "URL",
         intervalInMin: 120,
         channelID: "channelID"
@@ -171,7 +174,12 @@ const plugins = {
         // This RSS Plugin Supports the Following Format(s):
         // Atom, RSS1, and RSS2
         feedsURL: [
-            "feed URL"
+            "https://itsfoss.com/feed",
+            "https://www.phoronix.com/rss.php",
+            "https://www.bleepingcomputer.com/feed/",
+            "https://archlinux.org/feeds/news",
+            "https://www.gamingonlinux.com/article_rss.php",
+            "https://www.theverge.com/rss/index.xml"
         ],
         channelID: "channel ID",
         customMessage: "📰 | **$title**\n\n$url"
