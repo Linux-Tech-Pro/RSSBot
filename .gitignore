@@ -1,24 +1,4 @@
-.vscode/*
-assets/*
-config/*
-custom/*
-node_modules/*
-src/*
-app.sh
-checkForUpdate.sh
-database.sqlite
-deno.jsonc
-deno.lock
-deps.ts
-icon.png
-importMap.json
-lastrsscache.json
-Leveling\ Bot\ Beta.png
-package.json
-package-lock.json
-readme-logo.png
-registerSlashCommand.js
-
+base/*
 
 
 
